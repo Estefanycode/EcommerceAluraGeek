@@ -1,112 +1,112 @@
 {
   "product": [
     {
-      "imgUrl": "/assets/img/sw4.png",
+      "imgUrl": "/img/sw4.png",
       "name": "Stormtrooper",
       "price": "$50.00",
       "category": "Star Wars",
       "id": "rRW4CoK"
     },
     {
-      "imgUrl": "/assets/img/sw5.png",
+      "imgUrl": "/img/sw5.png",
       "name": "Baby Yoda",
       "price": "$30.00",
       "category": "Star Wars",
       "id": "l3KiaKj"
     },
     {
-      "imgUrl": "/assets/img/consolas1.png",
+      "imgUrl": "/img/consolas1.png",
       "name": "Control Xbox",
       "price": "$70.00",
       "category": "Consolas",
       "id": "QTTiaKj"
     },
     {
-      "imgUrl": "/assets/img/consolas2.png",
+      "imgUrl": "/img/consolas2.png",
       "name": "PlayStation 5",
       "price": "$70e0.00",
       "category": "Consolas",
       "id": "FNFIL9P"
     },
     {
-      "imgUrl": "/assets/img/consolas3.png",
+      "imgUrl": "/img/consolas3.png",
       "name": "NES",
       "price": "$200.00",
       "category": "Consolas",
       "id": "O1bBJOL"
     },
     {
-      "imgUrl": "/assets/img/diver1.png",
+      "imgUrl": "/img/diver1.png",
       "name": "Sabana",
       "price": "$18.00",
       "category": "Diversos",
       "id": "g4zZsXv"
     },
     {
-      "imgUrl": "/assets/img/sw6.png",
+      "imgUrl": "/img/sw6.png",
       "name": "Figura Star Wars",
       "price": "$40.00",
       "category": "Star Wars",
       "id": "6Wg-WPY"
     },
     {
-      "imgUrl": "/assets/img/diver2.png",
+      "imgUrl": "/img/diver2.png",
       "name": "Control nintendo switch",
       "price": "$50.00",
       "category": "Diversos",
       "id": "AxJoED3"
     },
     {
-      "imgUrl": "\"/assets/img/sw2.png\"",
+      "imgUrl": "\"/img/sw2.png\"",
       "name": "Figura cabezas Star Wars",
       "price": "$20,00",
       "id": "q_FBsS0",
       "category": "Star Wars"
     },
     {
-      "imgUrl": "\"/assets/img/sw3.png\"",
+      "imgUrl": "\"/img/sw3.png\"",
       "name": "Yoda",
       "price": "$40,00",
       "id": "ygXNfOs",
       "category": "Star Wars"
     },
     {
-      "imgUrl": "/assets/img/consolas4.png",
+      "imgUrl": "/img/consolas4.png",
       "name": "Nintendo Switch",
       "price": "$700.00",
       "category": "Consolas",
       "id": "GQj63Sz"
     },
     {
-      "imgUrl": "/assets/img/consolas5.png",
+      "imgUrl": "/img/consolas5.png",
       "name": "Xbox",
       "price": "$900.00",
       "category": "Consolas",
       "id": "Moe4YHk"
     },
     {
-      "imgUrl": "/assets/img/consolas6.png",
+      "imgUrl": "/img/consolas6.png",
       "name": "Gameboy color",
       "price": "$700.00",
       "category": "Consolas",
       "id": "4pTL-xc"
     },
     {
-      "imgUrl": "/assets/img/diver4.png",
+      "imgUrl": "/img/diver4.png",
       "name": "Reloj despertador",
       "price": "$12.00",
       "category": "Diversos",
       "id": "KAKS5vO"
     },
     {
-      "imgUrl": "/assets/img/diver5.png",
+      "imgUrl": "/img/diver5.png",
       "name": "Anteojos realidad virtual",
       "price": "$80.00",
       "category": "Diversos",
       "id": "Xk6BOWf"
     },
     {
-      "imgUrl": "/assets/img/diver6.png",
+      "imgUrl": "/img/diver6.png",
       "name": "Peluche Pikachu 150cm",
       "price": "$90.00",
       "category": "Diversos",

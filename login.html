@@ -4,84 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AluraGeek</title>
+    <title>Login</title>
 
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="/css/css-main.css">
 </head>
-<body>
 
+<body>
+    
     <!-- Header -->
     <header class="head">
         <div class="head__box">
-            <div class="head__icon"></div>
-            <div class="head__titleIcon"></div>
+            <a href="index.html" class="head__box">
+                <div class="head__icon"></div>
+                <div class="head__titleIcon"></div>
+            </a>
             <input type="text" class="head__input" placeholder="¿Qué desea buscar?">
             <span class="head__searchIcon--gray"></span>
-        </div>       
-        <a href="/screens/login.html" class="head__btnLogin">Login</a>
+        </div>        
+        <button class="head__btnLogin">Login</button>
         <button class="head__searchIcon--black"></button>
     </header>
 
     <main>
 
-        <!-- banner -->
-        <section class="info">
-            <img src="https://images.unsplash.com/photo-1585427795543-33cf23ea2853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Imagen de promociones" class="info__img">
-            <div class="info__textBox">
-                <h1 class="info__title">Julio Promocional</h1>
-                <h2 class="info__subtitle">Productos selecionados con 33% de descuento</h2>
-                <button class="info__btn">Ver Consolas</button>
-            </div>
+        <!-- Login -->
+        <section>
+            <form class="login" data-login>
+                <h3 class="login__title">Iniciar Sesión</h3>
+                <input type="email" class="login__input" placeholder="Escriba su correo electrónico" required data-userEmail>
+                <input type="password" class="login__input" placeholder="Escriba su contraseña" required data-password>
+                <button class="login__btn">Entrar</button>
+            </form>
         </section>
 
-        <!-- Lista Star Wars -->
-        <section class="product">
-            <div class="product__boxTitle">
-                <h2 class="product__title">Star Wars</h2>
-                <div class="product__boxLink">
-                    <a href="/screens/todosProductos.html" class="product__link">Ver todo</a>
-                    <div class="product__arrowIcon"></div>
-                </div>
-            </div>
-            <div class="product__boxProducts" data-productsStarWars>
-                <!-- js code -->
-            </div>
-        </section>
-
-        <!-- Lista Consolas -->
-        <section class="product">
-            <div class="product__boxTitle">
-                <h2 class="product__title">Consolas</h2>
-                <div class="product__boxLink">
-                    <a href="/screens/todosProductos.html" class="product__link">Ver todo</a>
-                    <div class="product__arrowIcon"></div>
-                </div>
-            </div>
-            <div class="product__boxProducts" data-productsConsolas>
-                <!-- js code -->
-            </div>
-        </section>
-
-        <!-- Lista Diversos -->
-        <section class="product">
-            <div class="product__boxTitle">
-                <h2 class="product__title">Diversos</h2>
-                <div class="product__boxLink">
-                    <a href="/screens/todosProductos.html" class="product__link">Ver todo</a>
-                    <div class="product__arrowIcon"></div>
-                </div>
-            </div>
-            <div class="product__boxProducts" data-productsDiversos>
-                <!-- js code -->
-            </div>
-        </section>
-
-        <!-- Formulario -->
+        <!-- Form -->
         <section class="form">
             <div class="form__LinksLogoBox">
                 <div class="form__logoBox">
@@ -122,6 +82,7 @@
         <p>2023</p>
     </footer>
 
-    <script type="module" src="/controllers/productos-controller.js"></script>
-</body> 
+
+<script type="module" src="/controllers/login-controller.js"></script>
+</body>
 </html>
