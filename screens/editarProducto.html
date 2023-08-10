@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agregar producto</title>
+
+    <link rel="stylesheet" href="/assets/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/css-main.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="head" style="margin-bottom: 1rem;">
+        <div class="head__box">
+            <a href="index.html" class="head__box">
+                <div class="head__icon"></div>
+                <div class="head__titleIcon"></div>
+            </a>
+            <input type="text" class="head__input" placeholder="¿Qué desea buscar?">
+            <span class="head__searchIcon--gray"></span>
+        </div>       
+        <a href="/screens/login.html" class="head__btnLogin">Menú Administrador</a>
+        <button class="head__searchIcon--black"></button>
+    </header>
+    
+    <main>
+
+        <!-- Agregar -->
+        <section class="add">
+            <form class="add__form" data-formAdd>
+                <legend class="add__title">Editar producto</legend>
+
+                <div class="add__inputsBox">
+                    <input type="text" class="add__input" required data-url>
+                    <span class="add__span">URL de la imagen</span>
+                    <input type="text" class="add__input" required data-category>
+                    <span class="add__span">Categoría</span>
+                    <input type="text" class="add__input" required data-name>
+                    <span class="add__span">Nombre del producto</span>
+                    <input type="text" class="add__input" required data-price>
+                    <span class="add__span">Precio del producto</span>
+                </div>
+
+                <textarea class="add__textarea" required></textarea>
+                <span class="add__span--textarea">Descripción del producto</span>
+
+                <button class="add__btn">Editar Producto</button>
+            </form>
+        </section>
+
+        <!-- Formulario -->
+        <section class="form">
+            <div class="form__LinksLogoBox">
+                <div class="form__logoBox">
+                    <div class="form__logo"></div>
+                    <div class="form__logoText"></div>
+                </div>
+                <div class="form__linksBox">
+                    <a href="#" class="form_links">Quienes somos</a>
+                    <a href="#" class="form_links">Política de privacidad</a>
+                    <a href="#" class="form_links">Programa de fidelidad</a>
+                    <a href="#" class="form_links">Nuestras tiendas</a>
+                    <a href="#" class="form_links">Quiero ser parte de AluraGeek</a>
+                    <a href="#" class="form_links">Denuncie aquí</a>
+                </div>
+            </div>
+
+            <form>
+                <fieldset class="form__inputsBox">
+                    <legend class="form__textForm">Hable con nosotros</legend>
+                    <div class="form__inputBox">
+                        <input type="text" class="form__input" required>
+                        <span class="form__span">Nombre</span>
+                    </div>
+                    <div class="form__inputBox">
+                        <!-- <input type="text" class="form__input" required> -->
+                        <textarea class="form__textArea" required></textarea>
+                        <span class="form__span">Mensaje</span>
+                    </div>
+                </fieldset>                
+                <button class="form__btn">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>Desarrollado por Estefania Garcia</p>
+        <p>2023</p>
+    </footer>
+
+    <script type="module" src="/assets/controllers/actualizar-controller.js"></script>
+</body>
+</html>
