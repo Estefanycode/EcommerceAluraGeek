@@ -37,7 +37,7 @@ form.addEventListener('submit', (event) => {
     
 
     clientServices.productUpdate(imgUrl, name, price, category, ids).then(() => {
-        window.location.href = '../screens/todosProductos.html';
+        window.location.href = 'todosProductos.html';
     });
 })
 

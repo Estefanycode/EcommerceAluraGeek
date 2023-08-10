@@ -19,7 +19,7 @@ form.addEventListener('submit', async (event) => {
 
     try {
         await clientServices.createProduct(url, name, price, id, category);
-        window.location.href = "../screens/todosProductos.html";
+        window.location.href = "todosProductos.html";
     } catch (error) {
         console.log(error);
     }

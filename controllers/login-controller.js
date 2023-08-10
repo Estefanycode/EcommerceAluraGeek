@@ -20,7 +20,7 @@ form.addEventListener('submit', async (event) => {
         );
 
         if (userFound) {
-            window.location.href = "../screens/todosProductos.html";
+            window.location.href = "todosProductos.html";
         } else {
             alert('El correo o contraseña ingresados son incorrectos.');
         }
